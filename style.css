@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+.title {
+    font-size: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.win-container {
+    display: none;
+}
+
+.msg {
+    font-size: 4vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: red;
+}
+
+.gamecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vh;
+    height: auto;
+}
+
+.box {
+    background-color: azure;
+    width: 20vh;
+    height: 20vh;
+    font-size: 9vmin;
+    color: #051237;
+    border: 2px solid #000;
+}
+
+.bt {
+    border-top: 0px;
+}
+
+.br {
+    border-right: 0px;
+}
+
+.bl {
+    border-left: 0px;
+}
+
+.bb {
+    border-bottom: 0px;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.reset button {
+    padding: 10px 20px;
+    font-size: 3vmin;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+
+@media only screen and (max-width: 950px) {
+    .container {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .box {
+        width: 30vw;
+        height: 30vw;
+        font-size: 8vmin;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .box {
+        width: 30vw;
+        height: 30vw;
+        font-size: 8vmin;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .box {
+        width: 30vw;
+        height: 30vw;
+        font-size: 8vmin;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .box {
+        width: 30vw;
+        height: 30vw;
+        font-size: 8vmin;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .container {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .box {
+        width: 30vw;
+        height: 30vw;
+        font-size: 8vmin;
+    }
+}
